@@ -504,6 +504,7 @@ dependencies = [
 [[package]]
 name = "equihash"
 version = "0.1.0"
+source = "git+https://github.com/nuttycom/librustzcash?branch=feature/zip_321_txns#4977688ea4fd62575fb7117e4d7c0799ba0321f0"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -2004,6 +2005,7 @@ dependencies = [
 [[package]]
 name = "zcash_client_backend"
 version = "0.5.0"
+source = "git+https://github.com/nuttycom/librustzcash?branch=feature/zip_321_txns#4977688ea4fd62575fb7117e4d7c0799ba0321f0"
 dependencies = [
  "base64 0.13.0",
  "bech32",
@@ -2031,6 +2033,7 @@ dependencies = [
 [[package]]
 name = "zcash_client_sqlite"
 version = "0.3.0"
+source = "git+https://github.com/nuttycom/librustzcash?branch=feature/zip_321_txns#4977688ea4fd62575fb7117e4d7c0799ba0321f0"
 dependencies = [
  "bech32",
  "bs58",
@@ -2040,6 +2043,7 @@ dependencies = [
  "protobuf",
  "rand_core 0.5.1",
  "rusqlite",
+ "secp256k1",
  "time",
  "zcash_client_backend",
  "zcash_primitives",
@@ -2048,6 +2052,7 @@ dependencies = [
 [[package]]
 name = "zcash_primitives"
 version = "0.5.0"
+source = "git+https://github.com/nuttycom/librustzcash?branch=feature/zip_321_txns#4977688ea4fd62575fb7117e4d7c0799ba0321f0"
 dependencies = [
  "aes",
  "bitvec 0.18.5",
@@ -2076,6 +2081,7 @@ dependencies = [
 [[package]]
 name = "zcash_proofs"
 version = "0.5.0"
+source = "git+https://github.com/nuttycom/librustzcash?branch=feature/zip_321_txns#4977688ea4fd62575fb7117e4d7c0799ba0321f0"
 dependencies = [
  "bellman",
  "blake2b_simd",
